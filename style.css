@@ -17,3 +17,10 @@ body {
     justify-content: center;
 }
 
+.instagram {
+    display: flex; /*conteudo alinhado em linha: flex-container*/
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 100vh;
+}
