@@ -36,3 +36,64 @@ body {
     height: 50rem;
 }
 
+.inst-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid;
+    border-color: lightgray;
+}
+
+.group:nth-child() {
+    min-height: 19rem;
+}
+
+. inst-logo {
+    height: 3rem;
+}
+
+.inst-foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.inst-foto-perfil img {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.inst-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.inst-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.inst-not-account {
+    color: rgb(160, 160, 160);
+}
+
+.link-azul{
+    color: #0095f6;
+}
