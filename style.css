@@ -57,11 +57,11 @@ body {
     border-color: lightgray;
 }
 
-.group:nth-child() {
+.group:nth-child(1) {
     min-height: 19rem;
 }
 
-. inst-logo {
+.inst-logo {
     height: 3rem;
 }
 
@@ -94,6 +94,38 @@ body {
     color: rgb(160, 160, 160);
 }
 
-.link-azul{
+.link-azul {
     color: #0095f6;
 }
+
+.baixar-app {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem
+}
+
+.download-app {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.download-app:nth-child(1) {
+    background-image: url('./img/logo-apple-button.png');
+}
+
+.download-app:nth-child(2) {
+    background-image: url('./img/logo-googleplay-button.png');
+}
+
