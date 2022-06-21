@@ -18,9 +18,21 @@ body {
 }
 
 .instagram {
-    display: flex; /*conteudo alinhado em linha: flex-container*/
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
     width: 60%;
     height: 100vh;
 }
+
+.inst-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.inst-phone img {
+    height: 50rem;
+}
+
