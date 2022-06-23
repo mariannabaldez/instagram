@@ -42,7 +42,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 7rem;
 }
 
 .group {
@@ -78,7 +78,7 @@ body {
     max-height: 130px;
 }
 
-.inst-login {
+.inst-continue {
     background-color: #0095f6;
     color: white;
     padding: 8px;
